@@ -1,0 +1,35 @@
+
+.container{
+  margin: auto;
+  margin-top: 100px;
+
+}
+.well{
+  background: #fbfbfb;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 1px #ececec;
+  -webkit-box-shadow: 0 1px 1px #ececec;
+  position: relative;
+  height: 392px;
+  width: 400px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #0d97e0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
